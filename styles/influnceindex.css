@@ -1,0 +1,376 @@
+.btn-primary {
+    border-radius: 41px;
+    background: #E02C6D;
+    border: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 24px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.nav-title {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 24px;
+
+    font-weight: 700;
+
+
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.header {
+
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.banner {
+    padding: 30px 30px 0px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content {
+    justify-content: space-between;
+}
+
+.banner .profile-pic {
+    padding-left: 300px;
+    width: 500px;
+
+}
+
+.banner-title {
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+
+/* mainsec */
+.facts-card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border: 1px solid;
+    border-image: linear-gradient(to right, transparent, rgba(128, 128, 128, 0.438), transparent);
+    border-left: 0;
+    border-right: 0;
+    border-image-slice: 1;
+}
+
+.facts-card-container .card {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    gap: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.skill-description {
+    color: #757575;
+}
+
+#what-i-do {
+    padding: 30px 150px;
+}
+
+.price {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.section-title {
+    color: #3A3A3A;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+
+}
+
+
+
+
+
+.section {
+    background-image: url('../Flower/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 210px;
+    margin-bottom: 100px;
+
+}
+
+.section-title2 {
+    color: #272727;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 35px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pic-container {
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    padding: 50px;
+}
+
+.form-aa {
+    width: 650px;
+    height: 52px;
+    border-radius: 8px;
+}
+
+
+
+.for-footer {
+    background: #111010;
+    width: 1500px;
+    height: 400px;
+
+}
+
+.section-title3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.section-description2 {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer-p {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.social-links {
+    text-align: center;
+}
+
+
+
+
+
+@media (max-width: 576px) {
+    nav {
+        margin: 0 20px;
+        flex-direction: column;
+    }
+
+    .nav-title {
+        font-size: 20px;
+    }
+
+    nav li {
+        font-size: 14px;
+        margin-right: 30px;
+    }
+
+    .banner {
+        padding: 30px 20px 0px;
+        flex-direction: column-reverse;
+    }
+
+    .banner .profile-pic {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+
+    .facts-card-container {
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .facts-card-container .card {
+        margin: 0 20px;
+    }
+
+    .skill-container {
+        margin: 0 20px;
+    }
+
+    .section {
+        width: 100%;
+        height: 400px;
+        margin: 50px 0;
+    }
+
+    .section-title2 {
+        margin-left: 20px;
+        font-size: 30px;
+    }
+
+    .pic-container {
+        flex-wrap: wrap;
+        padding: 20px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .form-aa {
+        width: 100%;
+    }
+
+    .for-footer {
+        margin-top: 200px;
+        width: 100%;
+        height: 300px;
+    }
+
+    .section-title3 {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .section-description2 {
+        font-size: 16px;
+    }
+
+    .footer-p {
+        font-size: 14px;
+    }
+}
+
+/* iPad View */
+@media (min-width: 576px) and (max-width: 990px) {
+    nav {
+        margin: 0 50px;
+    }
+
+    .banner {
+        padding: 30px 50px 0px;
+    }
+
+    .banner .profile-pic {
+        padding-left: 100px;
+        width: 300px;
+    }
+
+    .banner-title {
+        font-size: 45px;
+    }
+
+    .facts-card-container {
+        margin-top: 80px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .skill-container {
+        margin: 0 50px;
+    }
+
+    .section {
+        width: 100%;
+        height: 450px;
+        margin: 80px 0;
+    }
+
+    .section-title2 {
+        margin-left: 50px;
+        font-size: 32px;
+    }
+
+    .pic-container {
+        padding: 30px;
+    }
+
+    .form-aa {
+        width: 400px;
+    }
+
+    .for-footer {
+        width: 100%;
+        height: 350px;
+    }
+
+    .section-title3 {
+        font-size: 35px;
+        padding: 30px;
+    }
+
+    .section-description2 {
+        font-size: 16px;
+    }
+
+    .footer-p {
+        font-size: 14px;
+    }
+}
